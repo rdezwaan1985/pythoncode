@@ -19,7 +19,7 @@ build:
         domain: $IDENTITY_DOMAIN
         IDENTIFIER: $IDENTIFIER
         application_name: pythonthesnake
-        application_type: pythont
+        application_type: python
         repository: dockerhub
         file: python_fighter-0.0.1.$OPC_USERNAME.zip
         subscription_type: Hourly
