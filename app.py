@@ -3,6 +3,7 @@ from flask import Flask
 from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
 from config import Configuration
+-import MySQLdb
 
 # create Flask app
 app = Flask(__name__)
