@@ -12,8 +12,7 @@ db = SQLAlchemy(app)
 
 # GET request to ip.jsontest.com
 def home():
-
-return render_template('home.html')
+	return render_template('home.html')
 
 def rest_request_example():
     print (requests.get("http://ip.jsontest.com/").text)
