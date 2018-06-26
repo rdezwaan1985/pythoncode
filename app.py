@@ -1,3 +1,4 @@
+# My microservices!
 import requests
 from flask import Flask
 from flask import render_template
@@ -11,7 +12,7 @@ db = SQLAlchemy(app)
 
 # GET request to ip.jsontest.com
 def home():
-# My microservices!
+
 return render_template('home.html')
 
 def rest_request_example():
