@@ -19,7 +19,7 @@ def rest_request_example():
 
 def read_db_SQL_example():
     conn = db.get_engine().connect()
-    sql = "SELECT * FROM SampleTable"
+    sql = "SELECT * FROM SecretTable"
     results = conn.execute(sql)
     rows = ""
     for row in results:
